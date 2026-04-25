@@ -14,60 +14,113 @@ body {
 header {
   background: #23356E;
   color: white;
-  padding: 80px 20px;
+  padding: 60px 20px;
   text-align: center;
 }
 
 h1 {
   margin: 0;
-  font-size: 42px;
+  font-size: 40px;
 }
 
-header p {
-  margin-top: 10px;
-  font-size: 18px;
-}
-
-section {
-  padding: 60px 20px;
-  max-width: 800px;
+.container {
+  max-width: 900px;
   margin: auto;
+  padding: 40px 20px;
+}
+
+.section {
+  margin-bottom: 40px;
 }
 
 h2 {
   color: #23356E;
+  border-bottom: 2px solid #23356E;
+  padding-bottom: 5px;
 }
 
-p {
-  line-height: 1.6;
+.job {
+  margin-bottom: 20px;
 }
+
+.job-title {
+  font-weight: bold;
+}
+
+ul {
+  padding-left: 20px;
+}
+
 </style>
-
 </head>
 
 <body>
 
 <header>
   <h1>Emil Tornøe Jacobsen</h1>
-  <p>Økonomisk analytiker</p>
+  <p>Økonomisk analysekonsulent</p>
 </header>
 
-<section>
-  <h2>Om mig</h2>
-  <p>Her kan du skrive lidt om dig selv.</p>
-</section>
+<div class="container">
 
-<section>
-  <h2>Video</h2>
-  <video width="100%" controls>
-    <source src="video.mp4" type="video/mp4">
-  </video>
-</section>
+<div class="section">
+  <h2>Motivation</h2>
+  <p>
+    Jeg arbejder med at omsætte komplekse data og økonomiske analyser til indsigter,
+    der skaber værdi og understøtter beslutninger. Jeg motiveres af at arbejde i
+    krydsfeltet mellem data, ledelse og mennesker.
+  </p>
+</div>
 
-<section>
+<div class="section">
+  <h2>Kernekompetencer</h2>
+  <ul>
+    <li>Analyse og formidling</li>
+    <li>Projektledelse</li>
+    <li>Kvantitativ og kvalitativ metode</li>
+    <li>Økonomistyring</li>
+    <li>Systematisk og struktureret</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Erhvervserfaring</h2>
+
+  <div class="job">
+    <div class="job-title">Økonomisk analysekonsulent – Vejle Kommune</div>
+    <p>2025 - nu</p>
+    <ul>
+      <li>Økonomistyring og analyse</li>
+      <li>Formidling til ledelse og politikere</li>
+      <li>Datadrevet arbejde i Power BI</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-title">Specialkonsulent – Ringkøbing-Skjern Kommune</div>
+    <p>2024</p>
+    <ul>
+      <li>Analyse og rapportering</li>
+      <li>Præsentation for ledelse og byråd</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="section">
+  <h2>Uddannelse</h2>
+  <ul>
+    <li>Kandidat i Statskundskab – Aarhus Universitet</li>
+    <li>Bachelor i Statskundskab – Aarhus Universitet</li>
+  </ul>
+</div>
+
+<div class="section">
   <h2>Kontakt</h2>
-  <p>Email: dinmail@mail.dk</p>
-</section>
+  <p>Email: emiliotonni@gmail.com</p>
+</div>
+
+</div>
 
 </body>
 </html>
