@@ -5,192 +5,150 @@
 <title>Emil Tornøe Jacobsen</title>
 
 <style>
+
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  font-family: Arial;
-  display: flex;
+  background: #f5f7fa;
+  color: #333;
 }
 
-/* VENSTRE SIDE */
-.sidebar {
-  width: 30%;
-  background: #5c5c5c;
+/* HEADER */
+header {
+  background: #23356E;
   color: white;
-  padding: 30px;
+  padding: 80px 20px;
+  text-align: center;
 }
 
-.sidebar h2 {
-  border-bottom: 2px solid white;
-  padding-bottom: 5px;
-  margin-top: 30px;
+header h1 {
+  margin: 0;
+  font-size: 42px;
 }
 
-.sidebar ul {
-  padding-left: 20px;
+header p {
+  margin-top: 10px;
+  font-size: 18px;
+  opacity: 0.9;
 }
 
-/* HØJRE SIDE */
-.main {
-  width: 70%;
-  padding: 40px;
+/* CONTAINER */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
 }
 
-h1 {
-  font-size: 40px;
+/* SECTIONS */
+section {
+  margin-bottom: 50px;
 }
 
 h2 {
   color: #23356E;
-  border-bottom: 3px solid #23356E;
+  border-bottom: 2px solid #23356E;
   padding-bottom: 5px;
-  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
+/* JOB */
 .job {
   margin-bottom: 25px;
 }
 
+.job b {
+  display: block;
+}
+
+/* LISTS */
+ul {
+  padding-left: 20px;
+}
+
+/* GRID (til kompetencer) */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
 </style>
+
 </head>
 
 <body>
 
-<!-- VENSTRE -->
-<div class="sidebar">
+<header>
+  <h1>Emil Tornøe Jacobsen</h1>
+  <p>Economic Analysis Consultant</p>
+</header>
 
-<h2>Kontakt</h2>
-<p>Dalgas Avenue 17, st. mf<br>8000 Aarhus C</p>
-<p>20532428</p>
-<p>Emiliotonni@gmail.com</p>
-<p>www.linkedin.com/in/EmilTJ</p>
+<div class="container">
 
-<h2>Kernekompetencer</h2>
-<ul>
-<li>Analyserende og nysgerrig</li>
-<li>Kommunikation og formidling</li>
-<li>Projektledelse</li>
-<li>Kvantitativ og kvalitativ metode</li>
-<li>Systematisk og struktureret</li>
-<li>Salg & forhandling</li>
-<li>Service og samarbejde</li>
-</ul>
+<section>
+  <h2>Motivation</h2>
+  <div class="card">
+    <p>DIN TEKST HER</p>
+  </div>
+</section>
 
-<h2>IT-kompetencer</h2>
-<ul>
-<li>STATA & Nvivo - Rutineret bruger</li>
-<li>Microsoft Power Platform (BI, Apps & Automate)</li>
-<li>ChatGPT og Copilot - Rutineret bruger</li>
-<li>Office & Teams – Rutineret bruger</li>
-<li>ØS & NemØkonomi – Rutineret bruger</li>
-</ul>
+<section>
+  <h2>Experience</h2>
 
-<h2>Fritid</h2>
-<p>
-Jeg får energi af at holde mig i gang fysisk såvel som mentalt. Derfor dyrker jeg crossfit på ugentlig basis og arbejder som frivillig instruktør i Aarhus Crossfit.
-</p>
+  <div class="job card">
+    <b>Jobtitel | Virksomhed</b>
+    <span>Dato</span>
+    <ul>
+      <li>Beskrivelse</li>
+    </ul>
+  </div>
 
-<p>
-I hele min studietid var jeg frivillig skribent og deltog i redaktionsmøder samt skrev artikler til Kandestøberen.
-</p>
+</section>
 
-<h2>Præstationer</h2>
-<p>
-Vinder af Political Science Case Challenge 2023 med EMC2 Consulting.
-</p>
+<section class="grid">
 
-<p>
-Priser i McDonald's regi:
-<br>Årets medarbejder 2019
-<br>QSC-priser 2018 & 2020
-</p>
+  <div>
+    <h2>Core Competencies</h2>
+    <div class="card">
+      <ul>
+        <li>...</li>
+      </ul>
+    </div>
+  </div>
 
-</div>
+  <div>
+    <h2>IT Skills</h2>
+    <div class="card">
+      <ul>
+        <li>...</li>
+      </ul>
+    </div>
+  </div>
 
-<!-- HØJRE -->
-<div class="main">
+</section>
 
-<h1>Emil Tornøe Jacobsen</h1>
+<section>
+  <h2>Education</h2>
+  <div class="card">
+    <p>...</p>
+  </div>
+</section>
 
-<h2>Motivation</h2>
-<p>
-Som økonomisk analysekonsulent arbejder jeg med at omsætte komplekse data og økonomiske analyser til indsigter, der skaber værdi og understøtter ledelsesmæssige beslutninger.
-</p>
-
-<p>
-Jeg motiveres af at arbejde i krydsfeltet mellem data, ledelse og mennesker, hvor analyser bliver til handling gennem stærk faglighed og samarbejde.
-</p>
-
-<p>
-Mine kernekompetencer udmønter sig i analyse, formidling og projektledelse, hvor jeg tager ansvar og skaber resultater.
-</p>
-
-<p>
-Jeg har en struktureret og analytisk tilgang og kombinerer kvantitative og kvalitative metoder.
-</p>
-
-<p>
-Jeg trives i en varieret hverdag med tempo og søger løbende nye udfordringer.
-</p>
-
-<h2>Erhvervserfaring</h2>
-
-<div class="job">
-<b>Januar 2025 - Nuværende</b><br>
-<b>Økonomisk analysekonsulent | Vejle Kommune</b>
-<ul>
-<li>Omsætter analyser og prognoser til beslutningsgrundlag</li>
-<li>Arbejder datadrevet med Power Platform og AI</li>
-<li>Projektleder på kvalitetssikring og undersøgelser</li>
-<li>Kvalitativ økonomistyring og puljestyring</li>
-</ul>
-</div>
-
-<div class="job">
-<b>Februar 2024 - August 2024</b><br>
-<b>Speciale konsulent | Ringkøbing-Skjern kommune</b>
-<ul>
-<li>Process Tracing studie og fokusgrupper</li>
-<li>Analyse og anbefalinger til KV25</li>
-<li>Præsentation for ledelse og byråd</li>
-</ul>
-</div>
-
-<div class="job">
-<b>August 2019 - Maj 2024</b><br>
-<b>Account Manager | Sunweb Group</b>
-<ul>
-<li>B2B-salg og markedsansvar</li>
-<li>Kunderelationer og kontrakter</li>
-<li>Økonomi- og HR-ansvar</li>
-</ul>
-</div>
-
-<div class="job">
-<b>August 2022 - Juni 2023</b><br>
-<b>Juniorkonsulent Djøf | Aarhus C</b>
-<ul>
-<li>Netværk og salg til studerende</li>
-<li>Formidling til op til 500 personer</li>
-</ul>
-</div>
-
-<div class="job">
-<b>August 2015 - August 2021</b><br>
-<b>Manager McDonald's</b>
-<ul>
-<li>Daglig drift og ledelse</li>
-<li>Effektiv drift i travlt miljø</li>
-<li>Modtog flere priser</li>
-</ul>
-</div>
-
-<h2>Uddannelse</h2>
-
-<p><b>Kandidatgrad | Statskundskab</b><br>Aarhus Universitet (2022-2024)</p>
-
-<p><b>Bachelorgrad | Statskundskab</b><br>Aarhus Universitet (2019-2022)</p>
-
-<p><b>Studentereksamen</b><br>Herning Gymnasium (2015-2018)</p>
+<section>
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: ...</p>
+    <p>LinkedIn: ...</p>
+  </div>
+</section>
 
 </div>
 
