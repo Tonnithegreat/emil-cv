@@ -5,7 +5,30 @@
 <title>Emil Tornøe Jacobsen</title>
 
 <style>
+  
+details {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
 
+summary {
+  font-weight: bold;
+  color: #23356E;
+  padding: 10px;
+  background: #f0f3f8;
+  border-radius: 8px;
+}
+
+details[open] summary {
+  margin-bottom: 10px;
+}
+
+details p {
+  padding: 10px;
+  background: #fafafa;
+  border-radius: 8px;
+}
+  
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -127,7 +150,30 @@ ul {
     </div>
   </div>
 </section>
-  
+
+<section>
+  <h2>Anbefalinger</h2>
+
+  <div class="card">
+
+    <details>
+      <summary>Ringkøbing-Skjern Kommune</summary>
+      <p>
+        Her indsætter du din anbefalingstekst fra Ringkøbing-Skjern Kommune.
+        Du kan skrive flere linjer, og det vil automatisk folde ud.
+      </p>
+    </details>
+
+    <details>
+      <summary>Vejle Kommune</summary>
+      <p>
+        Her indsætter du din anbefaling fra Vejle Kommune.
+      </p>
+    </details>
+
+  </div>
+</section>
+
 <section>
   <h2>Motivation</h2>
   <div class="card">
